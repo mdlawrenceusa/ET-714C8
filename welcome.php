@@ -3,11 +3,11 @@
 <!-- welcome.php -->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Welcome Message with Output from the PHP date() Function</title>
+    <title>Welcome Message with Output from the PHP date() Function for Beanstalk Test</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   </head>
   <body>
-    <h2>Welcome!</h2>
+    <h2>Welcome2PHP!</h2>
     <?php
     echo "<h3>It's ".date("l, F jS").".<br />";
     echo "The time is ".date("g:ia").".</h3>";
