@@ -1,0 +1,33 @@
+<!-- mainmenu.html -->
+
+<div id="mainMenu" onmouseout="hide()">
+  <ul class="Links">
+    <li><a href="index.php" onmouseover="show('m1')">Home</a></li>
+    <li><a href="buy.php" onmouseover="show('m2')">Buy Now</a></li>
+    <li>
+      <a href="#" onmouseover="show('m3')">Products and Services</a> 
+      <div id="m3" onmouseover="show('m3')">
+        <a href="products.php">Product Catalog</a>
+        <a href="featured.php">Featured Products</a>
+        <a href="services.php">Services</a>
+        <a href="suppliers.php">Suppliers</a>
+      </div>
+    </li>
+    <li>
+      <a href="#" onmouseover="show('m4')">Your Health</a> 
+      <div id="m4" onmouseover="show('m4')">
+        <a href="bmi.php">BMI Calculator</a>
+        <a href="expert.php">Ask an expert</a>
+        <a href="links.php">Useful Links</a>
+      </div>
+    </li>
+    <li>
+      <a href="#" onmouseover="show('m5')">About Us</a> 
+      <div id="m5" onmouseover="show('m5')">
+        <a href="vision.php">Vision and Mission</a>
+        <a href="employment.php">Employment Opportunities</a>
+        <a href="news.php">News Archive</a>
+      </div>
+    </li>
+  </ul>
+</div>
